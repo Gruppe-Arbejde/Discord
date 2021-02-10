@@ -15,7 +15,7 @@ namespace Discord
         {
 
             string parentFolder = AppDomain.CurrentDomain.BaseDirectory; //locates the folder path in which the program is located
-            //Console.WriteLine(parentFolder);
+            Console.WriteLine(parentFolder);
 
             bool active = true;
             while (active == true)
